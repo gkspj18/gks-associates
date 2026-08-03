@@ -86,3 +86,31 @@ footer{
     padding:20px;
     margin-top:40px;
 }
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    border-top:5px solid #1b5e20;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#1b5e20;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+}
