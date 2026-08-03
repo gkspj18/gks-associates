@@ -22,6 +22,12 @@ header{
     color:white;
     text-align:center;
     padding:25px 0;
+    .logo{
+    width:120px;
+    height:auto;
+    display:block;
+    margin:0 auto 15px;
+}
 }
 
 header h1{
