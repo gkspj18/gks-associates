@@ -339,3 +339,32 @@ color:#0b4d2b;
     border-left:5px solid #1b5e20;
     border-radius:6px;
 }
+.highlights{
+    background:#0b4d2b;
+    color:white;
+    padding:80px 20px;
+}
+
+.highlight-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.highlight-box{
+    text-align:center;
+    background:rgba(255,255,255,0.08);
+    padding:35px 20px;
+    border-radius:12px;
+}
+
+.highlight-box h2{
+    font-size:48px;
+    color:#7CC242;
+    margin-bottom:10px;
+}
+
+.highlight-box p{
+    font-size:18px;
+}
