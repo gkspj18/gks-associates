@@ -59,8 +59,7 @@ nav a:hover{
 }
 
 .hero{
-    margin-top:110px;
-    height:100vh;
+    min-height:100vh;
     background:url("images/hotel.jpg") center center/cover no-repeat;
     position:relative;
 }
@@ -489,4 +488,19 @@ header{
     position:sticky;
     top:0;
     z-index:1001;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+}
+
+body{
+    padding-top:95px;
+}
+
+section{
+    scroll-margin-top:95px;
 }
