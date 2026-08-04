@@ -62,24 +62,22 @@ nav a:hover{
 
 .hero{
     min-height:100vh;
-    background:url("images/hotel.jpg") center center/cover no-repeat;
+    background:linear-gradient(135deg,#0b4d2b 0%, #1b5e20 35%, #2e7d32 70%, #81c784 100%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
     position:relative;
+    overflow:hidden;
 }
 
 .overlay{
-
-height:100%;
-
-background:rgba(0,0,0,.55);
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-text-align:center;
-
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.15);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 }
 
 .hero-content{
@@ -505,4 +503,25 @@ body{
 
 section{
     scroll-margin-top:95px;
+}
+.hero::before{
+    content:"";
+    position:absolute;
+    width:600px;
+    height:600px;
+    background:rgba(255,255,255,0.08);
+    border-radius:50%;
+    top:-150px;
+    right:-150px;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:rgba(255,255,255,0.05);
+    border-radius:50%;
+    bottom:-180px;
+    left:-120px;
 }
